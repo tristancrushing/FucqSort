@@ -1,5 +1,23 @@
 <?php
-
+/**
+ * FucqSort Class
+ * 
+ * Provides a collection of sorting algorithms for educational and practical use.
+ * Author: Tristan McGowan of ipspy.net (tristan@ipspy.net)
+ * 
+ * Methods:
+ * - sort: A custom FucqSort algorithm (Production Ready).
+ * - bubbleSort: Standard Bubble Sort (Production Ready).
+ * - selectionSort: Standard Selection Sort (Production Ready).
+ * - insertionSort: Standard Insertion Sort (Production Ready).
+ * - quickSort: Standard Quick Sort (Production Ready).
+ * - piedPiperSort: Conceptual Pied Piper Sort (Experimental).
+ * - custom3DMatrixSort: Custom Middle-Out 3D Matrix Sort (Experimental).
+ * - customIncrementalKeySort: LessThanGreaterThan Sort (Experimental).
+ * - blockSort: Block Sort Algorithm (Production Ready (maybe?)).
+ * 
+ * Note: Experimental methods are for conceptual understanding and may not be optimized for all production scenarios.
+ */
 class FucqSort
 {
     /**
