@@ -30,7 +30,66 @@ FucqSort (Fast Unconventional Clever Quick Sort) is an educational repository th
 Each algorithm is implemented as a PHP class with a static method to perform the sort. To use an algorithm, simply include the class file and call the static sort method with your array.
 
 Example:
+## Example Usages and Descriptions
+
+### FucqSort:
 ```php
-include 'FucqSort.php';
-$sortedArray = FucqSort::funcFucqSort($yourArray);
+$sortedArray = FucqSort::sort($yourArray);
 ```
+Ideal for large integer datasets; offers a quick and unconventional sorting approach.
+
+### Bubble Sort:
+
+```php
+$sortedArray = FucqSort::bubbleSort($yourArray);
+```
+Best for educational purposes and small arrays.
+
+### Selection Sort:
+
+```php
+$sortedArray = FucqSort::selectionSort($yourArray);
+```
+Suitable for small to medium-sized lists; simple but less efficient.
+
+### Insertion Sort:
+
+```php
+$sortedArray = FucqSort::insertionSort($yourArray);
+```
+Perfect for small or nearly sorted datasets.
+
+### Quick Sort:
+
+```php
+$sortedArray = FucqSort::quickSort($yourArray);
+```
+Highly efficient for large datasets.
+
+### Pied Piper Sort:
+
+```php
+$sortedArray = FucqSort::piedPiperSort($yourArray);
+```
+A conceptual method for understanding array processing.
+
+### Custom Middle-Out 3D Matrix Sort:
+
+```php
+$sortedMatrix = FucqSort::custom3DMatrixSort($your3DMatrix);
+```
+Demonstrates sorting of 3D matrices.
+
+### LessThanGreaterThan Sort:
+
+```php
+$sortedArray = FucqSort::customIncrementalKeySort($yourArray);
+```
+Experimental; focuses on relative element differences.
+
+### Block Sort:
+
+```php
+FucqSort::blockSort($yourArray);
+```
+Combines merge and insertion sort principles, good for medium to large datasets.
