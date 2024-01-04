@@ -1,3 +1,5 @@
+ ![FUCQSort Logo](FUCQSort-logo.png)
+
 # FucqSort - A Collection of Sorting Algorithms
 
 ## Introduction
